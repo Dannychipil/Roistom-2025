@@ -18743,7 +18743,7 @@ a.badge:hover {
 }
 @media (min-width: 1200px) {
   .navbar-expand-xl .navbar-brand .navbar-brand-item {
-    height: 40px;
+    height: 70px;
     display: block;
     width: auto;
   }
@@ -19316,7 +19316,7 @@ a.badge:hover {
     padding: 14px 0;
   }
   header.header-sticky-on .navbar-brand .navbar-brand-item {
-    height: 35px;
+    height: 55px;
   }
 }
 @-webkit-keyframes fadeInDown {
@@ -19809,7 +19809,30 @@ small,
 .text-twitter:hover {
   color: #3aacdd;
 }
+/*------------------------------*/
+.top-bar{
+  background: linear-gradient(to right, #005A8D, #003B5C);
+  color: white;
+  padding: 8px 0;
+  font-size: 14px;
+}
+.top-bar a{
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+  border-right:1px solid rgba(255, 255, 255, 0.3) ;
+}
+.top-bar a:last-child{
+  border-right: none;
+}
+.top-bar-right a{
+  margin-left: 10px;
+}
+.top-bar-right i{
+  font-size: 16px;
+}
 
+/*-----------------------------*/
 .bg-dribbble {
   background-color: #ea4c89;
   color: #fff;
