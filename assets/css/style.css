@@ -4638,8 +4638,6 @@ textarea.form-control-lg {
           justify-content: space-between;
 }
 .navbar-brand {
-  padding-top: var(--bs-navbar-brand-padding-y);
-  padding-bottom: var(--bs-navbar-brand-padding-y);
   margin-right: var(--bs-navbar-brand-margin-end);
   font-size: var(--bs-navbar-brand-font-size);
   color: var(--bs-navbar-brand-color);
@@ -9155,7 +9153,7 @@ textarea.form-control-lg {
 }
 
 .mx-auto {
-  margin-right: auto !important;
+  
   margin-left: auto !important;
 }
 
@@ -12760,8 +12758,9 @@ textarea.form-control-lg {
     padding: 2.5rem !important;
   }
   .p-md-6 {
-    padding: 3.5rem !important;
-    left: -3rem
+    
+            left: -2rem;
+        margin: 3em;
   }
   .p-md-7 {
     padding: 4rem !important;
@@ -15036,7 +15035,7 @@ textarea.form-control-lg {
     padding-top: 8rem !important;
   }
   .pt-xl-9 {
-    padding-top: 11rem !important;
+    padding-top: 9rem !important;
   }
   .pe-xl-0 {
     padding-right: 0 !important;
@@ -17390,6 +17389,7 @@ textarea.form-control-lg {
   overflow: hidden;
   outline: 0;
   margin-bottom: 6px;
+  margin-top: 1em;
 }
 
 .btn:focus-visible {
