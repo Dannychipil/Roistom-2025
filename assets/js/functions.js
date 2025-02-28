@@ -681,10 +681,13 @@ var e = {
     },
     // END: Mouse Move Parallax
 
+<<<<<<< HEAD
     //POP UP FUNCIONES
 
     
 
+=======
+>>>>>>> origin/master
     // START: 21 Purecounter
 
     /* @required https://github.com/srexi/purecounterjs */
